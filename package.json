@@ -1,0 +1,32 @@
+{
+  "name": "lib",
+  "version": "1.0.0",
+  "description": "Utility methods",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ovchingus/lib.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ovchingus/lib.js/issues"
+  },
+  "homepage": "https://github.com/ovchingus/lib.js#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "standard": "^14.3.1"
+  }
+}
